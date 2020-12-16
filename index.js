@@ -85,6 +85,7 @@ type BaseOptions = {|
   securityLevel?: SecMinimumLevel,
   storage?: SecStorageType,
   rules?: SecSecurityRules,
+  iCloud?: boolean,
 |};
 
 type NormalizedOptions = {
